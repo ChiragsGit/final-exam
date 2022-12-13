@@ -1,0 +1,10 @@
+@media screen and (max-width:760px) {
+    #main-header h1 {
+        font-size: 1.7em;
+    }
+
+    #main-header h2 {
+        font-size: 1.5em;
+    }
+    
+}

@@ -1,0 +1,23 @@
+@media screen and(max-width:560px) {
+    #main-header h2 {
+        display:none;
+    }
+
+    #main-nav ul{
+        padding: 1em 0;
+    }
+
+    #main-content figure{
+        float: none;
+        text-align: center;
+    }
+
+    #main-content figure img {
+width: 50%;
+    }
+
+    #main-content{
+        width: 100%;
+    }
+
+}

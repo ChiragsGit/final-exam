@@ -1,0 +1,147 @@
+@import url(./reset.css);
+
+/* NAVIGATION */
+
+#main-nav {
+background-color: rgb(30,129,176);
+}
+
+#main-nav ul {
+display: flex;
+list-style: none;
+gap: 3em;
+justify-content: center;
+}
+
+#main-nav a {
+    display: flex;
+    height: 50px;
+    align-items: center;
+    padding: 1em;
+    color: rgb(234,182,118);
+    font-size: 1.6em;
+    font-weight: bold;
+    text-decoration: none;
+    transition: 0.4s;
+}
+
+#main-nav a:hover {
+    background-color: rgb(226,135,67);
+}
+
+/* HEADER */
+
+#main-header {
+    background-color: rgb(135,62,35);
+    color: rgb(234,182,118);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 2em;
+    height: 100px;
+}
+
+#main-header h1 {
+    font-size: 3em;
+}
+
+#main-header h2 {
+    font-size: 2em;
+}
+
+/* MAIN CONTENT */
+
+#main-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 1em;
+    margin-bottom: 2em;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1em;
+}
+
+/* MAIN */
+
+main {
+    width: 65%;
+}
+
+#main-content figure {
+    float:left;
+    margin-bottom: 1em;
+    margin-right: 2em;
+}
+
+#main-content cite {
+    display: block;
+}
+
+#main-content img {
+    width: 250px;
+}
+
+
+/* ASIDE */
+#main-content aside {
+    width: 30%;
+    background-color: rgb(171,219,227) ;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#main-content aside h2 {
+    color: rgb(226,135,67);
+    font-size: 2em;
+    padding: 1em;
+    border-bottom: 1px solid rgb(226,135,67);
+    width: 100%;
+    text-align: center;
+    margin-bottom: 1em;
+}
+
+#main-content aside ul {
+    list-style: none;
+    color: rgb(226,135,67);
+    text-align: left;
+    font-size: 1.2em;
+}
+
+#main-content aside li {
+    padding: 1em;
+    border-bottom: 1px solid rgb(226,135,67);
+    line-height: 1.4em;
+    
+}
+
+/* FOOTER */
+
+footer {
+    background-color: rgb(21,76,121) ;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1em;
+
+}
+
+#social-nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    padding: 1em;
+}
+
+#social-nav img {
+    width: 30px;
+    align-items: center;
+    justify-content: space-around;
+    display: flex;
+    padding: 5px;
+    
+
+}
